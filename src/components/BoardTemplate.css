@@ -1,0 +1,13 @@
+#BoardTemplate {
+ display: grid;
+ grid-template-columns: repeat(26, 31px);
+ grid-template-rows: repeat(26, 31px);
+ width: 806px;
+ height: 806px;
+ background-color: green  
+}
+
+#BoardTemplate .tile {
+    width: 31px;
+    height: 31px;
+}
