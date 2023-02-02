@@ -1,13 +1,104 @@
 #BoardTemplate {
- display: grid;
- grid-template-columns: repeat(26, 31px);
- grid-template-rows: repeat(26, 31px);
- width: 806px;
- height: 806px;
- background-color: green  
-}
-
-#BoardTemplate .tile {
-    width: 31px;
-    height: 31px;
-}
+    display: grid;
+    grid-template-columns: repeat(26, 29px);
+    grid-template-rows: repeat(26, 29px);
+    width: 100%;
+    height: 100%;
+    background-color: green  
+   }
+   
+   #BoardTemplate .tile {
+       width: 95%;
+       height: 95%;
+       display: inline-block;
+       position: relative;
+   }
+   .V {
+       background-color: black;
+   }
+   .E {
+       background-color: white;
+   }
+   .R {
+       background-color: #ff493e;
+   }
+   .G {
+       background-color: #00C503;
+   }
+   .T {
+       background-color: #d09a69;
+   }
+   .N {
+       background-color: #b26618;
+   }
+   .S {
+       background-color: #e1e1e1;
+   }
+   .Y {
+       background-color: #f9f964;
+   }
+   .I {
+       background-color: #bdeaee;
+   }
+   .A {
+       background-color: #0051e0;
+   }
+   .P {
+       background-color: #c166fe;
+   }
+   .Q {
+       background-color: #6dff6d;
+   }
+   .O {
+       background-color: #fba260;
+   }
+   .L {
+       background-color: #33FFA5;
+   }
+   .K {
+       background-color: #ffa7ff;
+   }
+   .top-wall {
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 2px;
+       background-color: black;
+   }
+   
+   .right-wall {
+       position: absolute;
+       top: 0;
+       right: 0;
+       width: 2px;
+       height: 100%;
+       background-color: black;
+   }
+   
+   .bottom-wall {
+       position: absolute;
+       bottom: 0;
+       left: 0;
+       width: 100%;
+       height: 2px;
+       background-color: black;
+   }
+   
+   .left-wall {
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 2px;
+       height: 100%;
+       background-color: black;
+   }
+   .tile .player-sprite {
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       background-image: url('/Users/alecmosslove/Desktop/UFB_Web/ufb-web/src/assets/images/rogue.png');
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: contain;
+     }
