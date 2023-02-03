@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
+import useWebSocket, { ReadyState } from 'react-use-websocket';
 
 import './BoardTemplate.css';
 import { tiles } from './jotunheim.js'
 
 const verticalAxis = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
 const horizontalAxis = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
+
+const WS_URL = 'http://isekai.igor-n-kuz8044.workers.dev/join/room1';
 
 export default function BoardTemplate() {
     const [playerPos, setPlayerPos] = useState({ x: 0, y: 0 });
@@ -36,6 +39,41 @@ export default function BoardTemplate() {
             );
         }
     }
+
+    return (
+        <div>
+            <div id="BoardTemplate">{board}</div>
+            <div>
+                <App />
+            </div>
+        </div>
+    );
+}
+
+function App() {
+    const {
+      readyState,
+      lastMessage,
+      sendMessage
+    } = useWebSocket(WS_URL, {
+      onOpen: () => {
+        console.log('WebSocket connection established.');
+      }
+    });
+  
+    return (
+      <div>
+        <div>
+          <p>{
+        readyState === ReadyState.OPEN ? (
+          <p>WebSocket connection established.</p>
+        ) : (
+          <p>WebSocket connection not established.</p>
+        )
+      }</p>
+        </div>
+      </div>
+    )
     
-    return <div id="BoardTemplate">{board}</div>
+
 }

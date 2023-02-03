@@ -475,7 +475,7 @@ export const tiles = [
     {id: 'S6', tile: "I0000",},
     {id: 'S7', tile: "I0000",},
     {id: 'S8', tile: "V",},
-    {id: 'S9', tile: "E0000",},
+    {id: 'S9', tile: "I0000",},
     {id: 'S10', tile: "I0000",},
     {id: 'S11', tile: "I0000",},
     {id: 'S12', tile: "B1010II",},
