@@ -1,11 +1,12 @@
 #BoardTemplate {
-  display: grid;
-  grid-template-columns: repeat(26, 20px);
-  grid-template-rows: repeat(26, 20px);
-  width: 100%;
-  height: 100%;
-  background-color: green;
-}
+    display: grid;
+    grid-template-columns: repeat(26, 3.85%);
+    grid-template-rows: repeat(26, 3.85%);
+    width: 100vmin;
+    height: 100vmin;
+    background-color: green;
+    overflow: hidden;
+  }
 
 #BoardTemplate .tile {
   width: 95%;
@@ -98,6 +99,16 @@
   width: 100%;
   height: 100%;
   background-image: url("/src/assets/images/rogue.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tile .chest {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/src/assets/images/treasureChest.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
