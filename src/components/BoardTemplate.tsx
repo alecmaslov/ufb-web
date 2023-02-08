@@ -83,10 +83,9 @@ for (let layerIndex = 0; layerIndex < map.layers.length; layerIndex++) {
  
 
   return (
-    <div
-    >
+    <div>
       
-      <div id="BoardTemplate" style={{ padding: 20, top: 0 }}>
+      <div id="BoardTemplate" style={{top: 0 }}>
       
         {board}
         

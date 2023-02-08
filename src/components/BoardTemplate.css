@@ -2,10 +2,11 @@
     display: grid;
     grid-template-columns: repeat(26, 3.85%);
     grid-template-rows: repeat(26, 3.85%);
-    width: 100vmin;
-    height: 100vmin;
+    width: 95vmin;
+    height: 95vmin;
     background-color: green;
     overflow: hidden;
+    margin-top: 30px;
   }
 
 #BoardTemplate .tile {
@@ -113,3 +114,4 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+
