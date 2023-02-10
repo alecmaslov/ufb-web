@@ -1,6 +1,5 @@
 import React, { useState, useCallback, useEffect } from "react";
 import useWebSocket, { ReadyState } from "react-use-websocket";
-import "./BoardTemplate.css";
 
 export const GameState = () => {
   const [socketUrl] = useState("ws://127.0.0.1:8787/join/room1");
@@ -42,7 +41,12 @@ export const GameState = () => {
       {lastMessage ? <span>Last message: {lastMessage.data}</span> : null}
       <ul>
         {messageHistory.map((message, idx) => (
-          <span key={idx} style={{ color: "black", fontSize: "10px", width: 500 }}>{message ? message : null}</span>
+          <span
+            key={idx}
+            style={{ color: "black", fontSize: "10px", width: 500 }}
+          >
+            {message ? message : null}
+          </span>
         ))}
       </ul>
     </div>

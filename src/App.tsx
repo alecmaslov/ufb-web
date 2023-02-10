@@ -1,11 +1,10 @@
-
-import './App.css';
-import BoardTemplate from './components/BoardTemplate';
+import "./App.css";
+import GameScreen from "./components/game_screen";
 
 function App() {
   return (
     <div id="app">
-      <BoardTemplate/>
+      <GameScreen />
     </div>
   );
 }

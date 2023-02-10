@@ -1,0 +1,291 @@
+#BoardTemplate {
+  display: grid;
+  grid-template-columns: repeat(26, 3.85%);
+  grid-template-rows: repeat(26, 3.85%);
+  width: 95vmin;
+  height: 95vmin;
+  background-color: green;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+#BoardTemplate .tile {
+  width: 95%;
+  height: 95%;
+  display: inline-block;
+  position: relative;
+}
+.V {
+  background-color: black;
+}
+.E {
+  background-color: white;
+}
+.R {
+  background-color: #ff493e;
+}
+.G {
+  background-color: #00c503;
+}
+.T {
+  background-color: #d09a69;
+}
+.N {
+  background-color: #b26618;
+}
+.S {
+  background-color: #e1e1e1;
+}
+.Y {
+  background-color: #f9f964;
+}
+.I {
+  background-color: #bdeaee;
+}
+.A {
+  background-color: #0051e0;
+}
+.P {
+  background-color: #c166fe;
+}
+.Q {
+  background-color: #6dff6d;
+}
+.O {
+  background-color: #fba260;
+}
+.L {
+  background-color: #33ffa5;
+}
+.K {
+  background-color: #ffa7ff;
+}
+.top-wall {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+
+.right-wall {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background-color: black;
+}
+
+.bottom-wall {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+
+.left-wall {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background-color: black;
+}
+
+.tile .chest {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/src/assets/images/treasureChest.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tile .blueOrc {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/src/assets/images/blueOrc.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tile .blueBarbarian {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/src/assets/images/blueBarbarian.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tile .blueArcher {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/src/assets/images/blueArcher.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tile .blueGoblin {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/src/assets/images/blueGoblin.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tile .blueMage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/src/assets/images/blueMage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tile .blueWerewolf {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/src/assets/images/blueWerewolf.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tile .blueWitch {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/src/assets/images/blueWitch.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tile .blueZombie {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/src/assets/images/blueZombie.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tile .greenOrc {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/src/assets/images/greenOrc.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tile .greenBarbarian {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/src/assets/images/greenBarbarian.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tile .greenArcher {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/src/assets/images/greenArcher.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tile .greenGoblin {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/src/assets/images/greenGoblin.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tile .greenMage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/src/assets/images/greenMage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tile .greenWerewolf {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/src/assets/images/greenWerewolf.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tile .greenWitch {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/src/assets/images/greenWitch.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tile .greenZombie {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/src/assets/images/greenZombie.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tile .One1 {
+  background-color: #6dff6d;
+}
+
+.tile .One2 {
+  background-color: #6dff6d;
+}
+
+.tile .One3 {
+  background-color: #6dff6d;
+}
+
+.tile .Two1 {
+  background-color: #6dff6d;
+}
+
+.tile .Two2 {
+  background-color: #6dff6d;
+}
+
+.tile .Two3 {
+  background-color: #6dff6d;
+}
