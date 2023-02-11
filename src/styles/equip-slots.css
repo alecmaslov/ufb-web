@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffdfb1;
+    }
+
+.resources {
+    display: flex;
+    justify-content: space-evenly;
+    }
+    
+.resource {
+    display: flex;
+    align-items: center;
+    margin: 0 10%;
+    }
+
+.resource p {
+    margin: 8%;
+    }
+    
+.emoji {
+    font-size: 50px;
+    }
+    
+.value {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-left: 5px;
+    }
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 4%;
+    padding-bottom: 4%;
+      }
+      
+.square {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 2px dotted orange;
+    width: 10rem;
+    height: 10rem;
+    }

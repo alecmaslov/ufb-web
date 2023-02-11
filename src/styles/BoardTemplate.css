@@ -6,7 +6,7 @@
   height: 95vmin;
   background-color: green;
   overflow: hidden;
-  margin-top: 30px;
+  margin-top: 5px;
 }
 
 #BoardTemplate .tile {

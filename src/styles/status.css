@@ -1,0 +1,129 @@
+.status-container {
+    background-color: #cccbc1;
+    padding: 2% 0%;
+    }
+    
+.status-inner-container {
+    padding: 0px;
+    }
+    
+.status-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+.status-spacer {
+    flex: 1;
+    }
+    
+.status-center-column {
+    display: flex;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+.status-center-column p {
+    margin: 0;
+    align-items: center;
+    }
+
+.HP {
+    font-size: 4rem;
+}
+
+.moves {
+    font-size: 4rem;
+}
+
+.heart0 {
+    width: 60px;
+    height: 60px;
+    background-image: url("/src/assets/images/heart0.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+    
+.heart1 {
+    width: 60px;
+    height: 60px;
+    background-image: url("/src/assets/images/heart1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+
+.heart2 {
+    width: 60px;
+    height: 60px;
+    background-image: url("/src/assets/images/heart2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+
+.heart3 {
+    width: 60px;
+    height: 60px;
+    background-image: url("/src/assets/images/heart3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+
+.heart4 {
+    width: 60px;
+    height: 60px;
+    background-image: url("/src/assets/images/heart4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+
+.energy0 {
+    width: 60px;
+    height: 60px;
+    background-image: url("/src/assets/images/energy0.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+
+.energy1 {
+    width: 60px;
+    height: 60px;
+    background-image: url("/src/assets/images/energy1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+
+.energy2 {
+    width: 60px;
+    height: 60px;
+    background-image: url("/src/assets/images/energy2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+
+.energy3 {
+    width: 60px;
+    height: 60px;
+    background-image: url("/src/assets/images/energy3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+
+.energy4 {
+    width: 60px;
+    height: 60px;
+    background-image: url("/src/assets/images/energy4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
