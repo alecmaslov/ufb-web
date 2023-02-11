@@ -266,26 +266,51 @@
   background-size: contain;
 }
 
-.tile .One1 {
-  background-color: #6dff6d;
+.tile .One1::before {
+  content: "1️⃣";
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.tile .One2 {
-  background-color: #6dff6d;
+.tile .One2::before {
+  content: "2️⃣";
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.tile .One3 {
-  background-color: #6dff6d;
+.tile .One3::before {
+  content: "3️⃣";
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
-.tile .Two1 {
-  background-color: #6dff6d;
+.tile .Two1::before {
+  content: "🅰️";
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.tile .Two2 {
-  background-color: #6dff6d;
+.tile .Two2::before {
+  content: "🅱️";
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.tile .Two3 {
-  background-color: #6dff6d;
+.tile .Two3::before {
+  content: "🆑";
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
